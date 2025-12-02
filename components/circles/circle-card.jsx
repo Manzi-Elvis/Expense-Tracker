@@ -28,7 +28,7 @@ export default function CircleCard({ circle }) {
               initial={{ width: 0 }}
               whileInView={{ width: `${progress}%` }}
               transition={{ duration: 1.5, ease: 'easeOut' }}
-              className="h-full bg-gradient-to-r from-primary to-secondary"
+              className="h-full bg-linear-to-r from-primary to-secondary"
             ></motion.div>
           </div>
           <div className="flex justify-between text-xs">
