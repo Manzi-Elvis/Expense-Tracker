@@ -20,7 +20,7 @@ export default function CtaSection() {
           Join thousands of users who are already tracking their money, together.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Link href="/signup" className="px-8 py-4 rounded-lg bg-gradient-to-r from-primary to-secondary text-primary-foreground font-bold hover:shadow-lg hover:shadow-primary/50 transition transform hover:scale-105">
+          <Link href="/signup" className="px-8 py-4 rounded-lg bg-linear-to-r from-primary to-secondary text-primary-foreground font-bold hover:shadow-lg hover:shadow-primary/50 transition transform hover:scale-105">
             Download App
           </Link>
           <Link href="/" className="px-8 py-4 rounded-lg border border-accent text-accent font-semibold hover:bg-accent/10 transition">
