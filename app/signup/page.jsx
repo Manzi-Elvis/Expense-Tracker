@@ -21,7 +21,7 @@ export default function SignupPage() {
       >
         <div className="glassmorphism rounded-2xl p-8 md:p-10">
           <div className="flex items-center gap-3 mb-8">
-            <div className="w-8 h-8 rounded-full bg-gradient-to-br from-primary via-secondary to-accent"></div>
+            <div className="w-8 h-8 rounded-full bg-linear-to-br from-primary via-secondary to-accent"></div>
             <h1 className="text-2xl font-bold text-foreground">Dough Tracker</h1>
           </div>
 
