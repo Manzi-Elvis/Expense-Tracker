@@ -54,7 +54,7 @@ export default function GoalsScroll() {
               <motion.div
                 key={index}
                 whileHover={{ scale: 1.05, translateY: -4 }}
-                className="flex-shrink-0 w-80 glassmorphism rounded-2xl p-6 cursor-pointer hover:shadow-lg hover:shadow-primary/20 transition"
+                className="shrink-0 w-80 glassmorphism rounded-2xl p-6 cursor-pointer hover:shadow-lg hover:shadow-primary/20 transition"
               >
                 <div className="flex items-start justify-between mb-4">
                   <span className="text-3xl">{goal.icon}</span>
@@ -70,7 +70,7 @@ export default function GoalsScroll() {
                       initial={{ width: 0 }}
                       animate={{ width: `${progress}%` }}
                       transition={{ duration: 1.5, ease: 'easeOut' }}
-                      className={`h-full bg-gradient-to-r ${goal.color}`}
+                      className={`h-full bg-linear-to-r ${goal.color}`}
                     ></motion.div>
                   </div>
                   <div className="flex items-center justify-between text-xs">
