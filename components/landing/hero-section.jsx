@@ -44,7 +44,7 @@ export default function HeroSection() {
           className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 text-balance"
         >
           Dough Tracker{' '}
-          <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
+          <span className="bg-linear-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
             Chat. Save. Grow.
           </span>
         </motion.h1>
@@ -74,9 +74,9 @@ export default function HeroSection() {
           className="mt-16 md:mt-20"
         >
           <div className="relative mx-auto max-w-sm md:max-w-md rounded-2xl overflow-hidden glassmorphism p-6 transform hover:scale-105 transition duration-500">
-            <div className="aspect-video bg-gradient-to-br from-primary/10 via-secondary/10 to-accent/10 rounded-lg flex items-center justify-center">
+            <div className="aspect-video bg-linear-to-br from-primary/10 via-secondary/10 to-accent/10 rounded-lg flex items-center justify-center">
               <div className="text-center">
-                <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-accent mx-auto mb-4"></div>
+                <div className="w-12 h-12 rounded-full bg-linear-to-br from-primary to-accent mx-auto mb-4"></div>
                 <p className="text-sm text-muted-foreground">Chat interface preview</p>
               </div>
             </div>
