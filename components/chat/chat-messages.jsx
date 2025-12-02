@@ -17,7 +17,7 @@ const ChatMessages = forwardRef(({ messages, isLoading }, ref) => {
             className={`flex ${message.sender === 'user' ? 'justify-end' : 'justify-start'}`}
           >
             {message.sender === 'bot' && (
-              <div className="w-8 h-8 rounded-full bg-gradient-to-br from-primary to-secondary flex-shrink-0 mr-3 flex items-center justify-center text-sm">
+              <div className="w-8 h-8 rounded-full bg-linear-to-br from-primary to-secondary shrink-0 mr-3 flex items-center justify-center text-sm">
                 🤖
               </div>
             )}
@@ -25,7 +25,7 @@ const ChatMessages = forwardRef(({ messages, isLoading }, ref) => {
             <div
               className={`max-w-xs md:max-w-md px-4 py-3 rounded-2xl ${
                 message.sender === 'user'
-                  ? 'bg-gradient-to-r from-primary to-secondary text-primary-foreground rounded-br-none'
+                  ? 'bg-linear-to-r from-primary to-secondary text-primary-foreground rounded-br-none'
                   : 'bg-card border border-border text-foreground rounded-bl-none'
               }`}
             >
@@ -36,7 +36,7 @@ const ChatMessages = forwardRef(({ messages, isLoading }, ref) => {
             </div>
 
             {message.sender === 'user' && (
-              <div className="w-8 h-8 rounded-full bg-gradient-to-br from-accent to-primary flex-shrink-0 ml-3"></div>
+              <div className="w-8 h-8 rounded-full bg-linear-to-br from-accent to-primary shrink-0 ml-3"></div>
             )}
           </motion.div>
         ))}
