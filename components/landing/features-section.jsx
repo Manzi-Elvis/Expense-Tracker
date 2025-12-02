@@ -93,7 +93,7 @@ export default function FeaturesSection() {
               variants={itemVariants}
               className="group relative"
             >
-              <div className={`absolute inset-0 rounded-2xl bg-gradient-to-r ${feature.gradient} opacity-0 group-hover:opacity-20 transition duration-300 blur`}></div>
+              <div className={`absolute inset-0 rounded-2xl bg-linear-to-r ${feature.gradient} opacity-0 group-hover:opacity-20 transition duration-300 blur`}></div>
               <div className="relative glassmorphism rounded-2xl p-8 h-full hover:scale-105 transition duration-300">
                 <div className="text-4xl mb-4">{feature.icon}</div>
                 <h3 className="text-xl font-bold text-foreground mb-2">{feature.title}</h3>
