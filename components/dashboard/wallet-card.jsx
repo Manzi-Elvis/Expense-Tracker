@@ -50,7 +50,7 @@ export default function WalletCard() {
                 initial={{ width: 0 }}
                 animate={{ width: `${(balance / savingsGoal) * 100}%` }}
                 transition={{ duration: 1.5, ease: 'easeOut' }}
-                className="h-full bg-gradient-to-r from-primary via-secondary to-accent"
+                className="h-full bg-linear-to-r from-primary via-secondary to-accent"
               ></motion.div>
             </div>
           </div>
