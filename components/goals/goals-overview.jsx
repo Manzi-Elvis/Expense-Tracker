@@ -50,7 +50,7 @@ export default function GoalsOverview({ goals, onSelectGoal }) {
 
         <div className="glassmorphism rounded-2xl p-8">
           <p className="text-sm text-muted-foreground mb-2">Overall Progress</p>
-          <p className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent mb-3">
+          <p className="text-3xl md:text-4xl font-bold bg-linear-to-r from-primary to-secondary bg-clip-text text-transparent mb-3">
             {overallProgress.toFixed(1)}%
           </p>
           <div className="h-2 bg-border rounded-full overflow-hidden">
@@ -58,7 +58,7 @@ export default function GoalsOverview({ goals, onSelectGoal }) {
               initial={{ width: 0 }}
               animate={{ width: `${overallProgress}%` }}
               transition={{ duration: 1.5, ease: 'easeOut' }}
-              className="h-full bg-gradient-to-r from-primary to-secondary"
+              className="h-full bg-linear-to-r from-primary to-secondary"
             ></motion.div>
           </div>
         </div>
