@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 export default function StorySection() {
   return (
-    <section id="story" className="py-20 md:py-32 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-transparent via-primary/5 to-transparent">
+    <section id="story" className="py-20 md:py-32 px-4 sm:px-6 lg:px-8 bg-linear-to-b from-transparent via-primary/5 to-transparent">
       <div className="max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
