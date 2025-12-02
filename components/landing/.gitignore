@@ -1,0 +1,18 @@
+# files and folders to ignore
+node_modules/
+dist/
+.env
+.vscode/
+.DS_Store
+*.log
+build/
+coverage/
+.idea/
+.next/
+out/
+.cache/
+*.local
+*.tsbuildinfo
+.env.local
+.env.development.local
+.env.test.local
