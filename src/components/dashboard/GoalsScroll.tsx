@@ -69,7 +69,7 @@ export default function GoalsScroll() {
               </div>
               <div className="w-full h-2 bg-muted rounded-full overflow-hidden">
                 <div
-                  className="h-full bg-gradient-to-r from-primary to-accent"
+                  className="h-full bg-linear-to-r from-primary to-accent"
                   style={{ width: `${(goal.current / goal.target) * 100}%` }}
                 />
               </div>
