@@ -14,7 +14,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link href="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 rounded-full bg-gradient-to-br from-primary via-secondary to-accent"></div>
+            <div className="w-8 h-8 rounded-full bg-linear-to-br from-primary via-secondary to-accent"></div>
             <span className="text-lg md:text-xl font-bold text-foreground">Dough Tracker</span>
           </Link>
           <div className="hidden md:flex items-center gap-8">
