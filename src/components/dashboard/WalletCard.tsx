@@ -37,7 +37,7 @@ export default function WalletCard() {
           <span className="font-semibold">78%</span>
         </div>
         <div className="w-full h-2 bg-muted rounded-full overflow-hidden">
-          <div className="h-full w-3/4 bg-gradient-to-r from-primary to-accent" />
+          <div className="h-full w-3/4 bg-linear-to-r from-primary to-accent" />
         </div>
       </div>
 
