@@ -37,7 +37,7 @@ export default function QuickActions() {
             variants={itemVariants}
             className={`glassmorphism p-6 rounded-xl hover:scale-105 transition group`}
           >
-            <div className={`bg-gradient-to-br ${action.color} to-transparent w-12 h-12 rounded-lg flex items-center justify-center mb-3 group-hover:scale-110 transition`}>
+            <div className={`bg-linear-to-br ${action.color} to-transparent w-12 h-12 rounded-lg flex items-center justify-center mb-3 group-hover:scale-110 transition`}>
               <Icon className="w-6 h-6 text-white" />
             </div>
             <p className="text-sm font-semibold">{action.label}</p>
