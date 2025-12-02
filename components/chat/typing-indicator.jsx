@@ -9,7 +9,7 @@ export default function TypingIndicator() {
       animate={{ opacity: 1 }}
       className="flex justify-start gap-2"
     >
-      <div className="w-8 h-8 rounded-full bg-gradient-to-br from-primary to-secondary flex-shrink-0 flex items-center justify-center text-sm">
+      <div className="w-8 h-8 rounded-full bg-linear-to-br from-primary to-secondary shrink-0 flex items-center justify-center text-sm">
         🤖
       </div>
       <div className="px-4 py-3 rounded-2xl rounded-bl-none bg-card border border-border">
