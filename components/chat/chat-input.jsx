@@ -48,7 +48,7 @@ export default function ChatInput({ onSendMessage, isLoading }) {
             whileTap={{ scale: 0.95 }}
             type="submit"
             disabled={!input.trim() || isLoading}
-            className="w-12 h-12 rounded-2xl bg-gradient-to-r from-primary to-secondary text-primary-foreground flex items-center justify-center font-bold hover:shadow-lg hover:shadow-primary/50 transition disabled:opacity-50 disabled:cursor-not-allowed"
+            className="w-12 h-12 rounded-2xl bg-linear-to-r from-primary to-secondary text-primary-foreground flex items-center justify-center font-bold hover:shadow-lg hover:shadow-primary/50 transition disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {isLoading ? '⏳' : '📤'}
           </motion.button>
