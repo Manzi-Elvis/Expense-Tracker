@@ -58,7 +58,7 @@ export default function CircleDetail({ id }: CircleDetailProps) {
         </div>
         <div className="w-full h-2 bg-muted rounded-full overflow-hidden">
           <div
-            className="h-full bg-gradient-to-r from-primary to-accent"
+            className="h-full bg-linear-to-r from-primary to-accent"
             style={{ width: `${(circle.current / circle.target) * 100}%` }}
           />
         </div>
