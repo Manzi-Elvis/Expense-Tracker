@@ -4,7 +4,7 @@ import AuthForm from '../components/auth/AuthForm'
 
 export default function Signup() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-background via-card to-background flex items-center justify-center px-4">
+    <div className="min-h-screen bg-linear-to-br from-background via-card to-background flex items-center justify-center px-4">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
