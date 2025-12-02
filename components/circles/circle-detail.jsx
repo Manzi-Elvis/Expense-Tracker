@@ -73,7 +73,7 @@ export default function CircleDetail({ circle, onBack }) {
               initial={{ width: 0 }}
               animate={{ width: `${progress}%` }}
               transition={{ duration: 1.5, ease: 'easeOut' }}
-              className="h-full bg-gradient-to-r from-primary via-secondary to-accent"
+              className="h-full bg-linear-to-r from-primary via-secondary to-accent"
             ></motion.div>
           </div>
           <p className="text-center text-2xl font-bold text-foreground">{progress.toFixed(1)}%</p>
@@ -95,7 +95,7 @@ export default function CircleDetail({ circle, onBack }) {
                 transition={{ delay: index * 0.05 }}
                 className="flex items-center gap-3 p-3 rounded-lg bg-card/50"
               >
-                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center font-bold text-sm text-white">
+                <div className="w-10 h-10 rounded-full bg-linear-to-br from-primary to-secondary flex items-center justify-center font-bold text-sm text-white">
                   {member.avatar}
                 </div>
                 <div className="flex-1">
