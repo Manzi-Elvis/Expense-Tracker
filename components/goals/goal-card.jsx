@@ -16,7 +16,7 @@ export default function GoalCard({ goal }) {
             <div className="text-4xl mb-2">{goal.icon}</div>
             <h3 className="text-xl font-bold text-foreground">{goal.title}</h3>
           </div>
-          <div className={`text-xs font-bold px-3 py-1 rounded-full bg-gradient-to-r ${goal.color} text-white`}>
+          <div className={`text-xs font-bold px-3 py-1 rounded-full bg-linear-to-r ${goal.color} text-white`}>
             {progress.toFixed(0)}%
           </div>
         </div>
@@ -30,7 +30,7 @@ export default function GoalCard({ goal }) {
               initial={{ width: 0 }}
               whileInView={{ width: `${progress}%` }}
               transition={{ duration: 1.5, ease: 'easeOut' }}
-              className={`h-full bg-gradient-to-r ${goal.color}`}
+              className={`h-full bg-linear-to-r ${goal.color}`}
             ></motion.div>
           </div>
           <div className="flex items-center justify-between text-xs">
